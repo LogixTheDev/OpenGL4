@@ -3,4 +3,4 @@ project(OpenGL4)
 
 add_library(OpenGL4 STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/gl.cpp)
 
-target_include_directories(ImGui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(OpenGL4 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
