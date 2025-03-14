@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.30.2)
+project(OpenGL4)
+
+add_library(OpenGL4 STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/gl.cpp)
+
+target_include_directories(ImGui PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
